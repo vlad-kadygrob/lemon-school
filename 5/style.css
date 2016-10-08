@@ -1,0 +1,84 @@
+*  {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body { background: url(anywalls.com-352.jpg); 
+     	 height: 100px;
+       background-size: cover;
+    }
+.wrapper { 
+margin: 0 900px 0 200px;
+}
+header {
+	height: 160px;
+	background-color: #4187CC;
+}
+ .nav li {
+ 	display: inline-block;
+ }
+ .header-nav ul {
+  font-size: 16px;
+  list-style: none;   
+ }
+ .header-nav li {
+ 	display: inline-block;
+ }
+ .header-nav a {
+ 	display: inline-block;
+ 	width: 100%;
+    }
+.content {
+	border: solid;
+	border-width: 3px;
+	border-color: black;
+	height: auto;
+  font-style: italic;
+}
+.img1 img {
+ 	width: 100%;
+ 	}
+ 	footer {
+ 	background-color: #4187CC;
+ 	height: 110px;
+  text-shadow: 100%;
+    
+ 	}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 5px;
+  display: inline-block;
+  font-size: 23px;
+  width: 100%;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
+ a:hover {
+ 	background-color: white;
+ }
+ .main-nav {
+  width: 100%;
+  display: inline-block;
+  background-color: #4187CC;
+  margin: auto;
+  width: auto;
+}
+.main-nav > li { 
+	width: 150px;
+  font-size: 60px;
+}
+ .main-nav > li > ul {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+ .main-nav > li:hover > ul {
+  display: inline-block;
+  width: 100%;
+}
+h2 {
+	color: white;
+}
