@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <form class="wrapper" name="test" method="post" action="input1.php">
+    <h1>Fill the form</h1>
+    <p><b> Your name</b><br>
+       <input  class="name" type="text" placeholder="John">
+    </p>
+    <p><b> Your Surname</b><br>
+       <input  class="surname" type="text" placeholder="Doe">
+    </p>
+    <p><b> Your Email</b><br>
+       <input  class="email" type="text" placeholder="mail@example.com">
+    </p>
+    <p><b> Your Password</b><br>
+       <input  class="password" type="text" placeholder="Password">
+    </p> 
+    <p><b> Few words about You</b><br>
+       <input  class="comment" type="text" id="comment" placeholder="im awesome">
+     </p>
+    <div class="country"> 
+        <p><b>Your Country</b><br>
+            <select class="list">
+	            <option>Ukraine</option>
+	            <option>Usa</option>
+	            <option>Australia</option>
+            </select> 
+        </p>
+    </div>
+    <div class="radio">
+        <label>
+          <b>Your gender</b><br>
+            <input type="radio" name="gender" value="male">
+              Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="male">
+              Female
+        </label>
+        <label>
+            <input type="radio" name="gender" value="male">
+              Other
+        </label>
+    </div>
+    <label class="subscribe">
+    	<input type="checkbox" name="newsseller">
+        Subscribe to newsseller
+    </label>
+    <label>
+    <button type="submit">Submit</button>
+    </label>
+   </form>                                               
+</body>
+</html>
